@@ -1,3 +1,5 @@
 app.py
 duplicate
-original
+original/
+uploads/
+*.pdf
