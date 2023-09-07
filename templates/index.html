@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PDF Unlocker/Locker</title>
+</head>
+
+<body>
+    <h1>PDF Unlocker/Locker</h1>
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" accept=".pdf" required><br><br>
+        <input type="password" name="password" placeholder="Enter password" required><br><br>
+        <input type="submit" name="unlock" value="Unlock PDF">
+        <input type="submit" name="lock" value="Lock PDF">
+    </form>
+</body>
+
+</html>
